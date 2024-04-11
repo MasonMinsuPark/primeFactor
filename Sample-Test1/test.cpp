@@ -12,3 +12,11 @@ TEST(TestCaseName, TestName2) {
 	vector<int> expectedResult = {2};
 	EXPECT_EQ(primeFactor.getPrime(2), expectedResult);
 }
+
+
+TEST(TestCaseName, TestName3) {
+	PrimeFactor primeFactor;
+	vector<int> expectedResult = { 3 };
+	EXPECT_EQ(primeFactor.getPrime(3), expectedResult);
+}
+

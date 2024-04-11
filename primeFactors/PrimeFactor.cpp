@@ -5,9 +5,11 @@ using namespace std;
 class PrimeFactor {
 public:
 	vector<int> getPrime(int n) {
-		vector<int> returnVector;
+		vector<int> primeVector;
 		if (n == 2)
-			returnVector.push_back(2);
-		return returnVector;
+			primeVector.push_back(2);
+		if (n == 3)
+			primeVector.push_back(3);
+		return primeVector;
 	}
 };
